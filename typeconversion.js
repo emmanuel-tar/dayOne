@@ -13,4 +13,8 @@ let z;
 
 x
 x = Number('3.24');
-console.log(x, typeof(x))
+y = String('3.24');
+z = Boolean('chicken');
+console.log(x, typeof(x));
+console.log(y, typeof(y));
+console.log(z, typeof(z));
