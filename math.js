@@ -32,7 +32,7 @@ document.getElementById("submitbtn").onclick = function() {
     a = document.getElementById("atxt").value
     a = Number(a)
 
-    document.getElementById("btxt").value
+    b = document.getElementById("btxt").value
     b = Number(b)
 
     c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
